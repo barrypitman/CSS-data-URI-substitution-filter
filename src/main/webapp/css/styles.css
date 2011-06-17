@@ -1,0 +1,46 @@
+body {
+    background-color: #e8e7e7;
+}
+
+span.informationImage {
+    width: 32px;
+    height: 32px;
+    background: url('http://www.google.co.za/images/nav_logo72.png') no-repeat;
+    display: inline-block;
+}
+
+span.warningImage {
+    width: 32px;
+    height: 32px;
+    background: url('../images/icon_warning_32x32.png') no-repeat;
+    display: inline-block;
+}
+
+span.errorImage {
+    width: 32px;
+    height: 32px;
+    background: url('../images/icon_error_32x32.png') no-repeat;
+    display: inline-block;
+}
+
+span.okImage {
+    width: 32px;
+    height: 32px;
+    background: url('../images/icon_ok_32x32.png') no-repeat;
+    display: inline-block;
+}
+
+span.questionImage {
+    width: 32px;
+    height: 32px;
+    background: url('../images/icon_question_32x32.png') no-repeat;
+    display: inline-block;
+}
+
+/* test relative paths */
+span.testImage {
+    width: 32px;
+    height: 32px;
+    background: url('../icon_ok_32x32.png') no-repeat;
+    display: inline-block;
+}
